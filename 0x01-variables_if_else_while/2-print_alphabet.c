@@ -12,7 +12,7 @@ int main(void)
 	for (i = 97; i <= 122; i++)
 	{
 		putchar(a++);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
