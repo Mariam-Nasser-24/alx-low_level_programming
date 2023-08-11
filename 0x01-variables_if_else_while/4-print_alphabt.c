@@ -8,11 +8,11 @@ int main(void)
 	char a = 97;
 	int i = 0;
 
-	for (i = 0; i < 26; i++, a++)
+	for (i = 0; i < 26; i++)
 	{
-		if (a == 'q' || a == 'e')
+		if (a == 113 || a == 101)
 			continue;
-			putchar(a);
+			putchar(a++);
 	}
 	putchar('\n');
 	return (0);
