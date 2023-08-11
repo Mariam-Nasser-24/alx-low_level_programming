@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	int i = 48;
+	int n[] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57}, i = 0;
 
-	for (i = 48; i < 58; i++)
-		putchar(i);
+	for (i = 0; i < 10; i++)
+		putchar(n[i]);
 		putchar('\n');
 	return (0);
 }
