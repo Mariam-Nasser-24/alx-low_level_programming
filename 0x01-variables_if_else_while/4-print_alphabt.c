@@ -5,14 +5,12 @@
  */
 int main(void)
 {
-	char a = 97;
 	int i = 0;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (a == 113 || a == 101)
-			continue;
-			putchar(a++);
+		if (i != 113 && i != 101)
+			putchar(i);
 	}
 	putchar('\n');
 	return (0);
