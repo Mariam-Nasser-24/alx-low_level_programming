@@ -7,6 +7,5 @@
  */
 int print_last_digit(int i)
 {
-	_abs(i);
 	return (i % 10);
 }
