@@ -4,7 +4,7 @@
 
 /**
  * main - A program that generates random valid passwords
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	char c;
 
 	srand(time(NULL));
-	while (sum < = 2645)
+	while (sum <= 2645)
 	{
 		c = rand() % 128;
 		sum += c;
